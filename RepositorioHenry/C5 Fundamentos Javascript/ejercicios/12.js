@@ -6,6 +6,17 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  const mystr1 = str1
+  const mystr2 = str2
+
+  if (mystr1.length === mystr2.length) {
+    return console.log('las dos palabras tienen la misma longitud', true);
+  } else {
+    return console.log('no tienen la misma longitud', false);
+  }
 }
 
 module.exports = tienenMismaLongitud;
+
+tienenMismaLongitud('SoyHenry', 'Henrysoy')
+tienenMismaLongitud('hi', 'there')
