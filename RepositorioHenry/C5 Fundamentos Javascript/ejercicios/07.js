@@ -3,6 +3,13 @@ function esTipoDato(valor) {
   // Retorna el tipo de dato de este valor.
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
+  return console.log('El tipo de dato es:', (typeof (valor)))
+
 }
+
+esTipoDato('Miguel');
+esTipoDato(5);
+esTipoDato(true);
+esTipoDato({});
 
 module.exports = esTipoDato;
