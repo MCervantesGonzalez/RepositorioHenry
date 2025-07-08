@@ -4,6 +4,11 @@ function combinarNombres(nombre, apellido) {
   // Por ejemplo: 
   // "Soy", "Henry" ---> "Soy Henry"
   // Tu código:
+  combinar = (nombre.concat(' ', apellido))
+  console.log(combinar)
+  return combinar
 }
 
 module.exports = combinarNombres;
+
+combinarNombres('Miguel', 'Cervantes')

@@ -4,6 +4,13 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  saludo = 'Hola '
+  simbolo = '!'
+  console.log(saludo.concat(nombre), simbolo)
+  return saludo.concat(nombre, simbolo)
+
 }
 
 module.exports = obtenerSaludo;
+
+obtenerSaludo('Miguel')
