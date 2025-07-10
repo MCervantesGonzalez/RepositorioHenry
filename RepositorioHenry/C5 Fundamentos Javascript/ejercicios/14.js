@@ -7,9 +7,11 @@ function mayorQueCincuenta(num) {
   // 15 ---> false
   // Tu código:
   if (num > 50) {
-    return console.log(true)
+    console.log(true)
+    return true
   } else {
-    return console.log(false)
+    console.log(false)
+    return false
   }
 }
 

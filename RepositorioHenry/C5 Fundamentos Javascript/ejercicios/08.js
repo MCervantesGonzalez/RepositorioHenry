@@ -8,13 +8,17 @@ function esNumeroEntero(numero) {
   // 121.212 ---> false 
   // Tu código:
   if (Number.isInteger(numero) === true) {
-    return console.log('Tu numero es entero');
+    console.log('Tu numero es entero')
+    return true
   }
   else {
-    return console.log('Tu numero no es entero');
+    console.log('Tu numero no es entero')
+    return false
   }
 }
 
-esNumeroEntero(2.5);
-
 module.exports = esNumeroEntero;
+
+esNumeroEntero(24);
+esNumeroEntero(-1212);
+esNumeroEntero(121.212);

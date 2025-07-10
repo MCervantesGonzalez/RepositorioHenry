@@ -10,9 +10,11 @@ function esNuloOIndefinido(valor) {
   // Tu código:
   const myvar = valor;
   if (myvar == null || myvar == undefined) {
-    return console.log(true);
+    console.log(true)
+    return true
   } else {
-    return console.log(false);
+    console.log(false)
+    return false
   }
 }
 esNuloOIndefinido(null)

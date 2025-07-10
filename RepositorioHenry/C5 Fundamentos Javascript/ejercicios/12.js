@@ -10,9 +10,11 @@ function tienenMismaLongitud(str1, str2) {
   const mystr2 = str2
 
   if (mystr1.length === mystr2.length) {
-    return console.log('las dos palabras tienen la misma longitud', true);
+    console.log('las dos palabras tienen la misma longitud', true)
+    return true
   } else {
-    return console.log('no tienen la misma longitud', false);
+    console.log('no tienen la misma longitud', false)
+    return false
   }
 }
 

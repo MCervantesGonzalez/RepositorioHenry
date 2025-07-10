@@ -6,7 +6,8 @@ function devolverString(string) {
   // "hola mundo" ---> "hola mundo" 
   // "SoyHenry" ---> "SoyHenry" 
   // Tu código:
-  return console.log(string);
+  console.log(string)
+  return string
 }
 devolverString('texto')
 devolverString('hola mundo')

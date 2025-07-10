@@ -7,9 +7,11 @@ function esPar(num) {
   // 15 ---> false
   // Tu código:
   if (num % 2 === 0) {
-    return console.log(true)
+    console.log(true)
+    return true
   } else {
-    return console.log(false)
+    console.log(false)
+    return false
   }
 }
 
@@ -17,3 +19,4 @@ esPar(14)
 esPar(15)
 
 module.exports = esPar;
+

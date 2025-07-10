@@ -3,6 +3,11 @@ function esIgualYNegativo(a, b) {
   // Determina si son iguales y son ambos negativos.
   // De ser así, retorna true, de lo contrario, retorna false.
   // Tu código:
+
 }
 
 module.exports = esIgualYNegativo;
+
+esIgualYNegativo(7, 7)
+esIgualYNegativo(-7, -7)
+

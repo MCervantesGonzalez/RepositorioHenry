@@ -7,6 +7,13 @@ function elevarAlCuadrado(num) {
   // 6 ---> 36
   // 0 ---> 0
   // Tu código:
+
+  num = Math.pow(num, 2)
+  console.log(num)
+  return num
 }
 
 module.exports = elevarAlCuadrado;
+
+elevarAlCuadrado(6)
+elevarAlCuadrado(0)

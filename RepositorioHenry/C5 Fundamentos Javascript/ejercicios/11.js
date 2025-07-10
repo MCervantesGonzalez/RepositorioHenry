@@ -11,9 +11,11 @@ function sonIguales(x, y) {
   const myvary = y
 
   if (myvarx === myvary) {
-    return console.log('los numeros', myvarx, 'y', myvary, 'son iguales', true);
+    console.log('los numeros', myvarx, 'y', myvary, 'son iguales', true)
+    return true
   } else {
-    return console.log('los numeros', myvarx, 'y', myvary, 'no son iguales', false);
+    console.log('los numeros', myvarx, 'y', myvary, 'no son iguales', false)
+    return false
   }
 }
 

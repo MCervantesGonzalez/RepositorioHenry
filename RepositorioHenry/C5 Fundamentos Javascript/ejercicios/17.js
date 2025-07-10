@@ -7,11 +7,13 @@ function esPositivo(num) {
   // Si el número es 0, devuelve false.
   // Tu código:
   if (num > 0) {
-    return console.log('Es positivo')
+    console.log('Es positivo')
+    return 'Es positivo'
   } else if (num < 0) {
-    return console.log('Es negativo')
+    console.log('Es negativo')
+    return 'Es negativo'
   } else {
-    return console.log('false')
+    return false
   }
 }
 

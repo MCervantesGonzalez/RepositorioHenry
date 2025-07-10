@@ -3,7 +3,9 @@ function esTipoDato(valor) {
   // Retorna el tipo de dato de este valor.
   // Por ejemplo: "string", "number", "boolean", "object", etc.
   // Tu código:
-  return console.log('El tipo de dato es:', (typeof (valor)))
+  console.log('El tipo de dato es:', (typeof (valor)))
+
+  return 'El tipo de dato es:', (typeof (valor))
 
 }
 
